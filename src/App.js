@@ -1,15 +1,19 @@
-//import logo from './logo.svg';
 import './App.css';
 import Login from './Components/Login';
-//import Sample from './Sample';
-//onst jsonData = require('./SampleData.json');
+import { BrowserRouter } from 'react-router-dom';
+import Routing from './Routing';
+import Header from "./Components/Header"
+import MainComponent from './Components/MainComponent';
 
 function App() {
   return (
+    <BrowserRouter>
     <div className='App'>
-      <Login/>
+    <Header/>
+    <Routing/>
+    <MainComponent/>
     </div>
-    
+    </BrowserRouter>
   );
 }
 

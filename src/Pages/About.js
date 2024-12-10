@@ -1,7 +1,8 @@
 import React from "react";
+//import Login from "./Components/Login";
 
 export default function About () {
     return(
-        <div>About Us</div>
+        <div>About</div>
     )
 }
