@@ -4,6 +4,7 @@ import { BrowserRouter } from 'react-router-dom';
 import Routing from './Routing';
 import Header from "./Components/Header"
 import MainComponent from './Components/MainComponent';
+import SimpleSlider from './Components/SimpleSlider';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
     <Routing/>
     <MainComponent/>
     </div>
+    <div><SimpleSlider/></div>
     </BrowserRouter>
   );
 }
